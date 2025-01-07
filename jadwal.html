@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>Jadwal Kuliah & Kegiatan Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        .schedule {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .day {
+            width: 200px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .day h2 {
+            margin-top: 0;
+            padding: 10px;
+            color: white;
+            border-radius: 5px 5px 0 0;
+        }
+        .day p {
+            margin: 10px 0;
+        }
+        .monday h2 { background-color: #007bff; }
+        .tuesday h2 { background-color: #28a745; }
+        .wednesday h2 { background-color: #dc3545; }
+        .thursday h2 { background-color: #ffc107; }
+        .friday h2 { background-color: #17a2b8; }
+        .saturday h2 { background-color: #6c757d; }
+        .sunday h2 { background-color: #343a40; }
+    </style>
+</head>
+<body>
+    <h1>Jadwal Kuliah & Kegiatan Mahasiswa</h1>
+    <div class="schedule">
+        <div class="day monday">
+            <h2>Senin</h2>
+            <p>09:00 - 10:30<br>Basis Data<br>Ruang H.3.4.1</p>
+            <p>13:00 - 15:00<br>Dasar Pemrograman<br>Ruang H.3.1</p>
+        </div>
+        <div class="day tuesday">
+            <h2>Selasa</h2>
+            <p>08:00 - 09:30<br>Pemrograman Berbasis Web<br>Ruang D.2.J</p>
+            <p>14:00 - 16:00<br>Basis Data<br>Ruang D.3.M</p>
+        </div>
+        <div class="day wednesday">
+            <h2>Rabu</h2>
+            <p>10:00 - 12:00<br>Pemrograman Berbasis Object<br>Ruang D.2.A</p>
+            <p>13:30 - 15:00<br>Pemrograman Sisi Server<br>Ruang D.2.A</p>
+        </div>
+        <div class="day thursday">
+            <h2>Kamis</h2>
+            <p>08:00 - 10:00<br>Pengantar Teknologi Informasi<br>Ruang D.3.N</p>
+            <p>11:00 - 13:00<br>Rapat Koordinasi DOSCOM<br>Ruang Rapat G.1</p>
+        </div>
+        <div class="day friday">
+            <h2>Jumat</h2>
+            <p>09:00 - 11:00<br>Data Mining<br>Ruang G.2.3</p>
+            <p>13:00 - 15:00<br>Information Retrieval<br>Ruang G.2.4</p>
+        </div>
+        <div class="day saturday">
+            <h2>Sabtu</h2>
+            <p>08:00 - 10:00<br>Bimbingan Karier Online</p>
+            <p>10:30 - 12:00<br>Bimbingan Skripsi Online</p>
+        </div>
+        <div class="day sunday">
+            <h2>Minggu</h2>
+            <p>Tidak Ada Jadwal</p>
+        </div>
+    </div>
+</body>
+</html>
